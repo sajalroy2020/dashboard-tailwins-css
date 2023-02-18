@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dashboard</title>
+    <link rel="stylesheet" href="../src/assets/icon/css/all.min.css">
+    <link rel="stylesheet" href="../dist/style.css">
+    <link rel="stylesheet" href="../src/input.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body class="bg-gray-200">
+    <!--======================== Top Header start =======================-->
+        <section class="py-2 bg-white">
+            <div class="mx-wiidth">
+                <div class="flex flex-wrap">
+                    <div class="navigation w-full">
+                        <div class="flex items-center lg:justify-end justify-between">
+                            <div class="flex cursor-pointer w-8 h-5 lg:hidden menu mb-2">
+                              <i class="text-2xl text-gray-500 fas fa-bars"></i>
+                            </div>
+
+                            <div class="flex items-center cursor-pointer ">
+                              <span id="popup-btn4" class="flex flex-wrap items-center cursor-pointer">
+                                <span class="text-sm text-gray-400 mr-1">Notifications</span>
+                              <div class=" relative">
+                                <i class="md:text-2xl text-xl cursor-pointer text-gray-400 fa fa-bell mr-5"></i>
+                                <div class="w-5 h-5 text-xs absolute transform translate-x-4 bg-red-500 rounded-full text-white flex items-center justify-center" style="top: -4px; left: -4px;">
+                                    <p>5</p>
+                                </div>
+
+                                <div id="popup-text4" class="hidden popup-text4 table-popup-5 bg-white shadow-2xl p-3 rounded z-10 text-gray-400 w-64 text-xs">
+                                  <div class="pb-2">
+                                    <h5 class="text-lg text-[#3f567a]">All notifications</h5>
+                                    <a href="">
+                                      <p class="text-gray-500 text-sm pt-2">Labels</p>
+                                      <p class="text-gray-300">You have on label from Mijat Stevoic that needs to be approved.</p>
+                                      <p class="text-gray-400 pb-1">10:30AM.</p>
+                                    </a>
+                                    <hr>
+                                    <a href="">
+                                      <p class="text-gray-500 text-sm pt-2">Labels</p>
+                                      <p class="text-gray-300">You have on label from Mijat Stevoic that needs to be approved.</p>
+                                      <p class="text-gray-400 pb-1">10:30AM.</p>
+                                    </a>
+                                    <hr>
+                                    <a href="">
+                                      <p class="text-gray-500 text-sm pt-2">Labels</p>
+                                      <p class="text-gray-300">You have on label from Mijat Stevoic that needs to be approved.</p>
+                                      <p class="text-gray-400 pb-1">10:30AM.</p>
+                                    </a>
+                                    <hr>
+                                    <a href="">
+                                      <p class="text-gray-500 text-sm pt-2">Labels</p>
+                                      <p class="text-gray-300">You have on label from Mijat Stevoic that needs to be approved.</p>
+                                      <p class="text-gray-400 pb-1">10:30AM.</p>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              </span>
+                              <span class="text-sm text-gray-400 mr-1">Masssages</span>
+                              <div class=" relative">
+                                <a href="javascript:;">
+                                    <i class="md:text-2xl text-xl cursor-pointer text-gray-400 far fa-comment-alt mr-5"></i>
+                                    <div class=" w-5 h-5 text-xs absolute transform translate-x-4 bg-red-500 rounded-full text-white flex items-center justify-center" style="top: -6px;">
+                                        <p>2</p>
+                                    </div>
+                                </a>
+                              </div>
+                              <div class="flex items-center border-l-2">
+                                <img class="border-2 border-[#5dc293] rounded-full md:w-16 w-12 h-12 md:h-16 ml-2" src="../src/assets/image/login-men.png" class=" rounded-full" alt="">
+                                <div class="pl-3">
+                                  <select class="cursor-pointer outline-none bg-transparent md:text-lg text-base font-normal md:font-medium text-gray-400">
+                                    <option value=""> Stephan Austin</option>
+                                    <option value="">Stephan Austin</option>
+                                    <option value="">Stephan Austin</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!--====================== Top Header end ==========================-->
+
+    <!--====================== Side bar start ========================-->
+             <div class="flex">
+                <div class="bg-white menu-list lg:block hidden">
+                  <ul class="px-5 pb-10 relative">
+                    <li class="sideBar"><a href="dashboard-2.html"><img class="w-72" src="../src/assets/image/logo.png" alt=""></a></li>
+          
+                    <li class="text-[#3f567a] text-xl font-medium pt-24 pb-4 text-center">Fullfilment/Complience</li>
+                    <li class="border-b-2"></li>
+          
+                      <li class="text-gray-400 group mt-5 hover:bg-bg-5 rounded-lg py-4 cursor-pointer">
+                          <a class="group-hover:text-white px-4" href="chat.html"><i class="text-2xl far fa-comments mr-2"></i> Chat</a>
+                      </li>
+                     
+          
+                      <li class="text-gray-400 group hover:bg-bg-5 rounded-lg py-4 cursor-pointer mt-1">
+                        <a class="group-hover:text-white px-4" href="labels.html"><i class="text-2xl fa fa-tags pr-2"></i> Labels</a>
+                      </li>
+          
+                      <li class="text-gray-400 group hover:bg-bg-5  rounded-lg py-4 cursor-pointer mt-1">
+                        <a class="group-hover:text-white px-4" href="logo.html"><i class="text-2xl fa fa-pencil-ruler"></i> Logo</a>
+                      </li>
+
+                      <li class="text-gray-400 group hover:bg-bg-5 rounded-lg py-4 active4 cursor-pointer mt-1">
+                        <a class="group-hover:text-white px-4" href="products.html"><i class="text-2xl fa fa-flask pr-2"></i> Products</a>
+                      </li>
+          
+                      <li class="text-[#3f567a] text-xl font-medium pt-8 pb-4 px-2">Other</li>
+                      <li class="border-b-2 mx-3"></li>
+          
+                      <li class="text-gray-400 group mt-5 hover:bg-bg-5 rounded-lg py-4 cursor-pointer">
+                        <a class="group-hover:text-white px-4 flex flex-wrap items-center" href="fullfill-support.html"><i class="text-2xl far fa-comment-alt mr-3"></i> Help & Support</a>
+                      </li>
+          
+                      <li class="text-gray-400 group hover:bg-bg-5 rounded-lg py-4 cursor-pointer mt-1">
+                        <a class="group-hover:text-white px-4" href="fullfillment-profile.html"><i class="text-2xl fas fa-sliders-h mr-2"></i> My Profile/Settings</a>
+                      </li>
+          
+                      <li class="text-gray-400 group hover:bg-bg-5 rounded-lg py-4 cursor-pointer mt-1">
+                        <a class="group-hover:text-white px-4 flex flex-wrap items-center" href="login.html"><i class="text-2xl fas fa-volume-down mr-3"></i><b>Log out</b></a>
+                      </li>
+                  </ul>
+                </div>
+                 <!--====================== mobile Side bar start ========================-->
+            <div>
+              <ul class="space-y-3 fixed top-0 min-h-0 overflow-y-auto bg-gray-100 h-screen md:w-80 w-72 p-3 -ml-80 sidebar duration-500 z-50 lg:hidden">
+                  <li class="pb-4 border-b flex justify-end "><button class="hover:text-green-500 duration-300 close" type=""><i class="text-2xl fa fa-times"></i></button></li>
+                  <li class=""><a href="dashboard-2.html"><img class="w-72" src="../src/assets/image/logo.png" alt=""></a></li>
+
+                  <li class="text-[#3f567a] text-xl font-medium lg:pt-24 pt-3 pb-4 text-center">Fullfilment/Complience</li>
+                  <li class="border-b-2"></li>
+
+                  <li class="text-gray-400 group mt-5 hover:bg-bg-5 rounded-lg py-4 cursor-pointer">
+                    <a class="group-hover:text-white px-4" href="chat.html"><i class="text-2xl far fa-comments mr-2"></i> Chat</a>
+                </li>
+               
+    
+                <li class="text-gray-400 group hover:bg-bg-5 rounded-lg py-4 cursor-pointer mt-1">
+                  <a class="group-hover:text-white px-4" href="labels.html"><i class="text-2xl fa fa-tags pr-2"></i> Labels</a>
+                </li>
+    
+                <li class="text-gray-400 group hover:bg-bg-5  rounded-lg py-4 cursor-pointer mt-1">
+                  <a class="group-hover:text-white px-4" href="logo.html"><i class="text-2xl fa fa-pencil-ruler"></i> Logo</a>
+                </li>
+
+                <li class="text-gray-400 group hover:bg-bg-5 rounded-lg py-4 active4 cursor-pointer mt-1">
+                  <a class="group-hover:text-white px-4" href="products.html"><i class="text-2xl fa fa-flask pr-2"></i> Products</a>
+                </li>
+    
+                <li class="text-[#3f567a] text-xl font-medium pt-8 pb-4 px-2">Other</li>
+                <li class="border-b-2 mx-3"></li>
+    
+                <li class="text-gray-400 group mt-5 hover:bg-bg-5 rounded-lg py-4 cursor-pointer">
+                  <a class="group-hover:text-white px-4 flex flex-wrap items-center" href="fullfill-support.html"><i class="text-2xl far fa-comment-alt mr-3"></i> Help & Support</a>
+                </li>
+    
+                <li class="text-gray-400 group hover:bg-bg-5 rounded-lg py-4 cursor-pointer mt-1">
+                  <a class="group-hover:text-white px-4" href="fullfillment-profile.html"><i class="text-2xl fas fa-sliders-h mr-2"></i> My Profile/Settings</a>
+                </li>
+    
+                <li class="text-gray-400 group hover:bg-bg-5 rounded-lg py-4 cursor-pointer mt-1">
+                  <a class="group-hover:text-white px-4 flex flex-wrap items-center" href="login.html"><i class="text-2xl fas fa-volume-down mr-3"></i><b>Log out</b></a>
+                </li>
+                
+              </ul>
+          </div>
+            <!--====================== mobile Side bar End ========================-->
+
+
+            <!--====================== middle section start ========================-->
+            <div class="pl-6 pr-6 pt-10 right-text">
+              <h3 class="md:text-3xl text-2xl text-[#3f567a] font-medium">PRODUCTS</h3>               
+
+              <div class="flex flex-wrap">
+                  <div class="md:w-2/12 w-full"></div>
+                  <div class="md:w-8/12 w-full mt-8 bg-white p-2 md:p-5">
+                    <p class="text-lg pb-3 text-[#3f567a]">Add Now</p>
+                      <hr>
+                    <div class="md:flex md:items-center w-full mb-6 mt-10">
+                      <div class="md:w-612">
+                        <label class="block text-gray-500 md:text-right mb-1 md:mb-0 pr-4" for="inline-full-name">
+                          Name of the product:
+                        </label>
+                      </div>
+                      <div class="md:w-6/12">
+                        <input class="bg-gray-100 appearance-none border border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white " id="inline-full-name" type="text">
+                      </div>
+                    </div>
+                    <div class="md:flex md:items-center w-full mb-6 mt-10">
+                      <div class="md:w-612">
+                        <label class="block text-gray-500 md:text-right mb-1 md:mb-0 pr-4" for="inline-full-name">
+                          price of the product:
+                        </label>
+                      </div>
+                      <div class="md:w-3/12">
+                        <input class="bg-gray-100 appearance-none border border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white " id="inline-full-name" type="text">
+                      </div>
+                    </div>
+
+                    <div class="md:flex md:items-center mb-6">
+                      <div class="md:w-4/12">
+                        <label class="block text-gray-500 md:text-right mb-1 md:mb-0 pr-4 float-left" for="inline-full-name">
+                          Upload label template: 
+                        </label>
+                      </div>
+                      <div class="md:w-5/12">
+                        <input class="bg-gray-100 appearance-none border border-gray-200 rounded w-40 py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white " id="inline-full-name" type="file">
+                      </div>
+                    </div>
+
+                    <div class="md:flex md:items-center mb-6">
+                      <div class="md:w-6/12">
+                        <label class="block text-gray-500 md:text-right mb-1 md:mb-0 pr-4 float-left" for="inline-full-name">
+                          Upload PDF with info about the product: 
+                        </label>
+                      </div>
+                      <div class="md:w-5/12">
+                        <input class="bg-gray-100 appearance-none border border-gray-200 rounded w-40 py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white " id="inline-full-name" type="file">
+                      </div>
+                    </div>
+                    <div class="float-right py-8">
+                      <a class="md:px-8 px-2 py-3 text-white bg-bg-5 border rounded" href="">Save</a>
+                    </div>
+
+                  </div>
+                  <div class="md:w-2/12 w-full"></div>
+              </div>
+
+
+            </div>
+
+            <!--====================== middle section End ========================-->
+
+        </div>
+
+
+            
+
+    <!--========================= custom js add =========================-->
+    <script src="../src/assets/js/main.js"></script>
+
+    <script>
+      var btn4 = document.getElementById("popup-btn4");
+      var text4 = document.getElementById("popup-text4");
+
+      btn4.addEventListener("click", function (e) {
+        text4.classList.toggle("hidden");
+        e.stopPropagation();
+      });
+
+      window.addEventListener("click", windoClick);
+      function windoClick(e) {
+        if (!e.target.closest(".popup-text4")) {
+          text4.classList.add("hidden");
+        }
+      }
+    </script>
+
+</body>
+</html>

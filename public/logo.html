@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dashboard</title>
+    <link rel="stylesheet" href="../src/assets/icon/css/all.min.css">
+    <link rel="stylesheet" href="../dist/style.css">
+    <link rel="stylesheet" href="../src/input.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body class="bg-gray-200">
+    <!--======================== Top Header start =======================-->
+        <section class="py-2 bg-white">
+            <div class="mx-wiidth">
+                <div class="flex flex-wrap">
+                    <div class="navigation w-full">
+                        <div class="flex items-center lg:justify-end justify-between">
+                            <div class="flex cursor-pointer w-8 h-5 lg:hidden menu mb-2">
+                              <i class="text-2xl text-gray-500 fas fa-bars"></i>
+                            </div>
+
+                            <div class="flex items-center cursor-pointer ">
+                              <span id="popup-btn4" class="flex flex-wrap items-center cursor-pointer">
+                                <span class="text-sm text-gray-400 mr-1">Notifications</span>
+                              <div class=" relative">
+                                <i class="md:text-2xl text-xl cursor-pointer text-gray-400 fa fa-bell mr-5"></i>
+                                <div class="w-5 h-5 text-xs absolute transform translate-x-4 bg-red-500 rounded-full text-white flex items-center justify-center" style="top: -4px; left: -4px;">
+                                    <p>5</p>
+                                </div>
+
+                                <div id="popup-text4" class="hidden popup-text4 table-popup-5 bg-white shadow-2xl p-3 rounded z-10 text-gray-400 w-64 text-xs">
+                                  <div class="pb-2">
+                                    <h5 class="text-lg text-[#3f567a]">All notifications</h5>
+                                    <a href="">
+                                      <p class="text-gray-500 text-sm pt-2">Labels</p>
+                                      <p class="text-gray-300">You have on label from Mijat Stevoic that needs to be approved.</p>
+                                      <p class="text-gray-400 pb-1">10:30AM.</p>
+                                    </a>
+                                    <hr>
+                                    <a href="">
+                                      <p class="text-gray-500 text-sm pt-2">Labels</p>
+                                      <p class="text-gray-300">You have on label from Mijat Stevoic that needs to be approved.</p>
+                                      <p class="text-gray-400 pb-1">10:30AM.</p>
+                                    </a>
+                                    <hr>
+                                    <a href="">
+                                      <p class="text-gray-500 text-sm pt-2">Labels</p>
+                                      <p class="text-gray-300">You have on label from Mijat Stevoic that needs to be approved.</p>
+                                      <p class="text-gray-400 pb-1">10:30AM.</p>
+                                    </a>
+                                    <hr>
+                                    <a href="">
+                                      <p class="text-gray-500 text-sm pt-2">Labels</p>
+                                      <p class="text-gray-300">You have on label from Mijat Stevoic that needs to be approved.</p>
+                                      <p class="text-gray-400 pb-1">10:30AM.</p>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              </span>
+                              <span class="text-sm text-gray-400 mr-1">Masssages</span>
+                              <div class=" relative">
+                                <a href="javascript:;">
+                                    <i class="md:text-2xl text-xl cursor-pointer text-gray-400 far fa-comment-alt mr-5"></i>
+                                    <div class=" w-5 h-5 text-xs absolute transform translate-x-4 bg-red-500 rounded-full text-white flex items-center justify-center" style="top: -6px;">
+                                        <p>2</p>
+                                    </div>
+                                </a>
+                              </div>
+                              <div class="flex items-center border-l-2">
+                                <img class="border-2 border-[#5dc293] rounded-full md:w-16 w-12 h-12 md:h-16 ml-2" src="../src/assets/image/login-men.png" class=" rounded-full" alt="">
+                                <div class="pl-3">
+                                  <select class="cursor-pointer outline-none bg-transparent md:text-lg text-base font-normal md:font-medium text-gray-400">
+                                    <option value=""> Stephan Austin</option>
+                                    <option value="">Stephan Austin</option>
+                                    <option value="">Stephan Austin</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!--====================== Top Header end ==========================-->
+
+    <!--====================== Side bar start ========================-->
+             <div class="flex">
+                <div class="bg-white menu-list lg:block hidden">
+                  <ul class="px-5 pb-10 relative">
+                    <li class="sideBar"><a href="dashboard-2.html"><img class="w-72" src="../src/assets/image/logo.png" alt=""></a></li>
+          
+                    <li class="text-[#3f567a] text-xl font-medium pt-24 pb-4 text-center">Fullfilment/Complience</li>
+                    <li class="border-b-2"></li>
+          
+                      <li class="text-gray-400 group mt-5 hover:bg-bg-5 rounded-lg py-4 cursor-pointer">
+                          <a class="group-hover:text-white px-4" href="chat.html"><i class="text-2xl far fa-comments mr-2"></i> Chat</a>
+                      </li>
+                    
+                      <li class="text-gray-400 group hover:bg-bg-5 rounded-lg py-4 cursor-pointer mt-1">
+                        <a class="group-hover:text-white px-4" href="labels.html"><i class="text-2xl fa fa-tags pr-2"></i> Labels</a>
+                      </li>
+
+                      <li class="text-gray-400 group hover:bg-bg-5 active4 rounded-lg py-4 cursor-pointer mt-1">
+                        <a class="group-hover:text-white px-4" href="labels.html"><i class="text-2xl fa fa-pencil-ruler pr-2"></i> Logo</a>
+                      </li>
+          
+                      <li class="text-gray-400 group hover:bg-bg-5 rounded-lg py-4 cursor-pointer mt-1">
+                        <a class="group-hover:text-white px-4" href="products.html"><i class="text-2xl fa fa-flask pr-2"></i> Products</a>
+                      </li>
+          
+                      <li class="text-[#3f567a] text-xl font-medium pt-8 pb-4 px-2">Other</li>
+                      <li class="border-b-2 mx-3"></li>
+          
+                      <li class="text-gray-400 group mt-5 hover:bg-bg-5 rounded-lg py-4 cursor-pointer">
+                        <a class="group-hover:text-white px-4 flex flex-wrap items-center" href="fullfill-support.html"><i class="text-2xl far fa-comment-alt mr-3"></i> Help & Support</a>
+                      </li>
+          
+                      <li class="text-gray-400 group hover:bg-bg-5 rounded-lg py-4 cursor-pointer mt-1">
+                        <a class="group-hover:text-white px-4" href="fullfillment-profile.html"><i class="text-2xl fas fa-sliders-h mr-2"></i> My Profile/Settings</a>
+                      </li>
+          
+                      <li class="text-gray-400 group hover:bg-bg-5 rounded-lg py-4 cursor-pointer mt-1">
+                        <a class="group-hover:text-white px-4 flex flex-wrap items-center" href="login.html"><i class="text-2xl fas fa-volume-down mr-3"></i><b>Log out</b></a>
+                      </li>
+                  </ul>
+                </div>
+                 <!--====================== mobile Side bar start ========================-->
+            <div>
+              <ul class="space-y-3 fixed top-0 min-h-0 overflow-y-auto bg-gray-100 h-screen md:w-80 w-72 p-3 -ml-80 sidebar duration-500 z-50 lg:hidden">
+                  <li class="pb-4 border-b flex justify-end "><button class="hover:text-green-500 duration-300 close" type=""><i class="text-2xl fa fa-times"></i></button></li>
+                  <li class=""><a href="dashboard-2.html"><img class="w-72" src="../src/assets/image/logo.png" alt=""></a></li>
+
+                  <li class="text-[#3f567a] text-xl font-medium lg:pt-24 pt-3 pb-4 text-center">Fullfilment/Complience</li>
+                  <li class="border-b-2"></li>
+
+                  <li class="text-gray-400 group mt-5 hover:bg-bg-5 rounded-lg py-4 cursor-pointer">
+                    <a class="group-hover:text-white px-4" href="chat.html"><i class="text-2xl far fa-comments mr-2"></i> Chat</a>
+                </li>
+    
+                <li class="text-gray-400 group hover:bg-bg-5 rounded-lg py-4 cursor-pointer mt-1">
+                  <a class="group-hover:text-white px-4" href="labels.html"><i class="text-2xl fa fa-tags pr-2"></i> Labels</a>
+                </li>
+    
+                <li class="text-gray-400 group hover:bg-bg-5 active4 rounded-lg py-4 cursor-pointer mt-1">
+                  <a class="group-hover:text-white px-4" href="logo.html"><i class="text-2xl fa fa-pencil-ruler"></i> Logo</a>
+                </li>
+
+                <li class="text-gray-400 group hover:bg-bg-5 rounded-lg py-4 cursor-pointer mt-1">
+                  <a class="group-hover:text-white px-4" href="products.html"><i class="text-2xl fa fa-flask pr-2"></i> Products</a>
+                </li>
+    
+                <li class="text-[#3f567a] text-xl font-medium pt-8 pb-4 px-2">Other</li>
+                <li class="border-b-2 mx-3"></li>
+    
+                <li class="text-gray-400 group mt-5 hover:bg-bg-5 rounded-lg py-4 cursor-pointer">
+                  <a class="group-hover:text-white px-4 flex flex-wrap items-center" href="fullfill-support.html"><i class="text-2xl far fa-comment-alt mr-3"></i> Help & Support</a>
+                </li>
+    
+                <li class="text-gray-400 group hover:bg-bg-5 rounded-lg py-4 cursor-pointer mt-1">
+                  <a class="group-hover:text-white px-4" href="fullfillment-profile.html"><i class="text-2xl fas fa-sliders-h mr-2"></i> My Profile/Settings</a>
+                </li>
+    
+                <li class="text-gray-400 group hover:bg-bg-5 rounded-lg py-4 cursor-pointer mt-1">
+                  <a class="group-hover:text-white px-4 flex flex-wrap items-center" href="login.html"><i class="text-2xl fas fa-volume-down mr-3"></i><b>Log out</b></a>
+                </li>
+                
+              </ul>
+          </div>
+            <!--====================== mobile Side bar End ========================-->
+
+
+            <!--====================== middle section start ========================-->
+            <div class="pl-6 pr-6 pt-10 right-text">
+              <h3 class="md:text-3xl text-2xl text-[#3f567a] font-medium">Logo</h3>
+              <p class="text-xs pt-2 text-red-400">You have five Logos waiting for your approval!</p>
+               
+
+              <div class="bg-[#edf2f8] p-5 my-10">
+                <div class="flex flex-wrap">
+                  <div class="w-full overflow-x-scroll md:overflow-visible">
+                    <div class="flex flex-wrap justify-between">
+                      <div>
+                        <button class="bg-gray-50 hover:border-b-4 border-bg-5 px-4 py-3 text-gray-400 tab-btn">For Apprpval</button>
+                        <button class="bg-gray-50 hover:border-b-4 border-bg-5 px-4 py-3 text-gray-400 tab-btn">Sent back</button>
+                        <button class="bg-gray-50 hover:border-b-4 border-bg-5 px-4 py-3 text-gray-400 tab-btn">Apprpved</button>
+                      </div>
+                      <div class="md:mt-0 mt-2">
+                        <button class="text-gray-400 bg-gray-50 px-4 py-3 tab-btn active3">All</button>
+                      </div>
+                    </div>
+                    <div class="flex flex-wrap py-7 bg-white px-2">
+                      <div class="md:w-7/12 w-full flex items-center gap-3">
+                        <p class="text-xs pt-2 text-gray-300">Here are all the tables</p>
+                      </div>
+                      <div class="md:w-5/12 w-full flex items-center mt-3 md:mt-0">
+                        <div class="relative w-full">
+                          <input class="p-3 border rounded w-full h-12" type="text" placeholder="Search">
+                          <span class="absolute top-3 right-4 cursor-pointer text-xl text-bg-5"><i class="fa fa-search"></i></span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="overflow-x-scroll md:overflow-visible bg-white tab-text">
+                      <table class="table-auto text-left w-full mb-5">
+                        <thead class="text-gray-400 text-sm">
+                          <tr>
+                            <th class="px-5 pt-7">Promoted</th>
+                            <th class="px-5 pt-7">Graphic Designer</th>
+                            <th class="px-5 pt-7">Client</th>
+                            <th class="px-5 pt-7">Recived</th>
+                            <th class="px-5 pt-7">Status</th>
+                            <th class="px-5 pt-7">Action</th>
+
+                          </tr>
+                        </thead>
+                        <tbody class="text-gray-500 ">
+                          <tr class="border-b dark:border-gray-500">
+                            <td class="pl-5 pt-4 pb-4 text-sky-300">Brain Booster</td>
+                            <td class="pl-5 pt-4 pb-4">Mijat Stevovic</td>
+                            <td class="pl-5 pt-4 pb-4">James Hendrix</td>
+                            <td class="pl-5 pt-4 pb-4">10 May 2021</td>
+                            <td class="pl-5 pt-4 pb-4"><span class="bg-bg-5 text-white p-1 rounded-full text-sm"><i class="fa fa-check"></i></span></td>
+                            <td class="pl-5 pt-4 pb-4"><a class="trigger px-3 py-1 border rounded-full border-[#3f567a] text-[#3f567a]" href="javascript:;">view</a></td>
+                          </tr>
+                          <tr class="border-b dark:border-gray-500">
+                            <td class="pl-5 pt-4 pb-4 text-sky-300">Brain Booster</td>
+                            <td class="pl-5 pt-4 pb-4">Mijat Stevovic</td>
+                            <td class="pl-5 pt-4 pb-4">James Hendrix</td>
+                            <td class="pl-5 pt-4 pb-4">10 May 2021</td>
+                            <td class="pl-5 pt-4 pb-4"><span class="bg-bg-5 text-white p-1 rounded-full text-sm"><i class="fa fa-check"></i></span></td>
+                            <td class="pl-5 pt-4 pb-4"><a class="trigger3 px-3 py-1 border rounded-full border-[#3f567a] text-[#3f567a]" href="javascript:;">view</a></td>
+                          </tr>
+                          <tr class="border-b dark:border-gray-500">
+                            <td class="pl-5 pt-4 pb-4 text-sky-300">Brain Booster</td>
+                            <td class="pl-5 pt-4 pb-4">Mijat Stevovic</td>
+                            <td class="pl-5 pt-4 pb-4">James Hendrix</td>
+                            <td class="pl-5 pt-4 pb-4">10 May 2021</td>
+                            <td class="pl-5 pt-4 pb-4"><span class="bg-bg-5 text-white p-1 rounded-full text-sm"><i class="fa fa-check"></i></span></td>
+                            <td class="pl-5 pt-4 pb-4"><a class="trigger3 px-3 py-1 border rounded-full border-[#3f567a] text-[#3f567a]" href="javascript:;">view</a></td>
+                          </tr>
+                          <tr class="border-b dark:border-gray-500">
+                            <td class="pl-5 pt-4 pb-4 text-sky-300">Brain Booster</td>
+                            <td class="pl-5 pt-4 pb-4">Mijat Stevovic</td>
+                            <td class="pl-5 pt-4 pb-4">James Hendrix</td>
+                            <td class="pl-5 pt-4 pb-4">10 May 2021</td>
+                            <td class="pl-5 pt-4 pb-4"><span class="bg-bg-5 text-white p-1 rounded-full text-sm"><i class="fa fa-check"></i></span></td>
+                            <td class="pl-5 pt-4 pb-4"><a class="trigger3 px-3 py-1 border rounded-full border-[#3f567a] text-[#3f567a]" href="javascript:;">view</a></td>
+                          </tr>
+                          <tr class="border-b dark:border-gray-500">
+                            <td class="pl-5 pt-4 pb-4 text-sky-300">Brain Booster</td>
+                            <td class="pl-5 pt-4 pb-4">Mijat Stevovic</td>
+                            <td class="pl-5 pt-4 pb-4">James Hendrix</td>
+                            <td class="pl-5 pt-4 pb-4">10 May 2021</td>
+                            <td class="pl-5 pt-4 pb-4"><span class="bg-bg-5 text-white p-1 rounded-full text-sm"><i class="fa fa-check"></i></span></td>
+                            <td class="pl-5 pt-4 pb-4"><a class="trigger3 px-3 py-1 border rounded-full border-[#3f567a] text-[#3f567a]" href="javascript:;">view</a></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <p class="text-sm py-2 pl-5 text-gray-400">Total: 5</p>
+                    </div>
+                    <div class="overflow-x-scroll md:overflow-visible bg-white hidden-text tab-text">
+                      <table class="table-auto text-left w-full mb-5">
+                        <thead class="text-gray-400 text-sm">
+                          <tr>
+                            <th class="px-5 pt-7">Promoted</th>
+                            <th class="px-5 pt-7">Graphic Designer</th>
+                            <th class="px-5 pt-7">Client</th>
+                            <th class="px-5 pt-7">Recived</th>
+                            <th class="px-5 pt-7">Status</th>
+                            <th class="px-5 pt-7">Action</th>
+                          </tr>
+                        </thead>
+                        <tbody class="text-gray-500 ">
+                          <tr class="border-b dark:border-gray-500">
+                            <td class="pl-5 pt-4 pb-4 text-sky-300">Brain Booster</td>
+                            <td class="pl-5 pt-4 pb-4">Mijat Stevovic</td>
+                            <td class="pl-5 pt-4 pb-4">James Hendrix</td>
+                            <td class="pl-5 pt-4 pb-4">10 May 2021</td>
+                            <td class="pl-5 pt-4 pb-4"><span class="bg-bg-5 text-white p-1 rounded-full text-sm"><i class="fa fa-check"></i></span></td>
+                            <td class="pl-5 pt-4 pb-4"><a class="px-3 py-1 border rounded-full border-[#3f567a] text-[#3f567a]" href="">view</a></td>
+                          </tr>
+                          <tr class="border-b dark:border-gray-500">
+                            <td class="pl-5 pt-4 pb-4 text-sky-300">Brain Booster</td>
+                            <td class="pl-5 pt-4 pb-4">Mijat Stevovic</td>
+                            <td class="pl-5 pt-4 pb-4">James Hendrix</td>
+                            <td class="pl-5 pt-4 pb-4">10 May 2021</td>
+                            <td class="pl-5 pt-4 pb-4"><span class="bg-bg-5 text-white p-1 rounded-full text-sm"><i class="fa fa-check"></i></span></td>
+                            <td class="pl-5 pt-4 pb-4"><a class="px-3 py-1 border rounded-full border-[#3f567a] text-[#3f567a]" href="">view</a></td>
+                          </tr>
+                          <tr class="border-b dark:border-gray-500">
+                            <td class="pl-5 pt-4 pb-4 text-sky-300">Brain Booster</td>
+                            <td class="pl-5 pt-4 pb-4">Mijat Stevovic</td>
+                            <td class="pl-5 pt-4 pb-4">James Hendrix</td>
+                            <td class="pl-5 pt-4 pb-4">10 May 2021</td>
+                            <td class="pl-5 pt-4 pb-4"><span class="bg-bg-5 text-white p-1 rounded-full text-sm"><i class="fa fa-check"></i></span></td>
+                            <td class="pl-5 pt-4 pb-4"><a class="px-3 py-1 border rounded-full border-[#3f567a] text-[#3f567a]" href="">view</a></td>
+                          </tr>
+                          <tr class="border-b dark:border-gray-500">
+                            <td class="pl-5 pt-4 pb-4 text-sky-300">Brain Booster</td>
+                            <td class="pl-5 pt-4 pb-4">Mijat Stevovic</td>
+                            <td class="pl-5 pt-4 pb-4">James Hendrix</td>
+                            <td class="pl-5 pt-4 pb-4">10 May 2021</td>
+                            <td class="pl-5 pt-4 pb-4">pending</td>
+                            <td class="pl-5 pt-4 pb-4"><a class="px-3 py-1 border rounded-full border-[#3f567a] text-[#3f567a]" href="">view</a></td>
+                          </tr>
+                          <tr class="border-b dark:border-gray-500">
+                            <td class="pl-5 pt-4 pb-4 text-sky-300">Brain Booster</td>
+                            <td class="pl-5 pt-4 pb-4">Mijat Stevovic</td>
+                            <td class="pl-5 pt-4 pb-4">James Hendrix</td>
+                            <td class="pl-5 pt-4 pb-4">10 May 2021</td>
+                            <td class="pl-5 pt-4 pb-4"><span class="bg-bg-5 text-white p-1 rounded-full text-sm"><i class="fa fa-check"></i></span></td>
+                            <td class="pl-5 pt-4 pb-4"><a class="px-3 py-1 border rounded-full border-[#3f567a] text-[#3f567a]" href="">view</a></td>
+                          </tr>
+                          <tr class="border-b dark:border-gray-500">
+                            <td class="pl-5 pt-4 pb-4 text-sky-300">Brain Booster</td>
+                            <td class="pl-5 pt-4 pb-4">Mijat Stevovic</td>
+                            <td class="pl-5 pt-4 pb-4">James Hendrix</td>
+                            <td class="pl-5 pt-4 pb-4">10 May 2021</td>
+                            <td class="pl-5 pt-4 pb-4"><span class="bg-bg-5 text-white p-1 rounded-full text-sm"><i class="fa fa-check"></i></span></td>
+                            <td class="pl-5 pt-4 pb-4"><a class="px-3 py-1 border rounded-full border-[#3f567a] text-[#3f567a]" href="">view</a></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <p class="text-sm py-2 pl-5 text-gray-400">Total: 5</p>
+                    </div>
+                    <div class="overflow-x-scroll md:overflow-visible bg-white hidden-text tab-text">
+                      <table class="table-auto text-left w-full mb-5">
+                        <thead class="text-gray-400 text-sm">
+                          <tr>
+                            <th class="px-5 pt-7">Promoted</th>
+                            <th class="px-5 pt-7">Graphic Designer</th>
+                            <th class="px-5 pt-7">Client</th>
+                            <th class="px-5 pt-7">Recived</th>
+                            <th class="px-5 pt-7">Status</th>
+                            <th class="px-5 pt-7">Action</th>
+
+                          </tr>
+                        </thead>
+                        <tbody class="text-gray-500 ">
+                          <tr class="border-b dark:border-gray-500">
+                            <td class="pl-5 pt-4 pb-4 text-sky-300">Brain Booster</td>
+                            <td class="pl-5 pt-4 pb-4">Mijat Stevovic</td>
+                            <td class="pl-5 pt-4 pb-4">James Hendrix</td>
+                            <td class="pl-5 pt-4 pb-4">10 May 2021</td>
+                            <td class="pl-5 pt-4 pb-4"><span class="bg-bg-5 text-white p-1 rounded-full text-sm"><i class="fa fa-check"></i></span></td>
+                            <td class="pl-5 pt-4 pb-4"><a class="px-3 py-1 border rounded-full border-[#3f567a] text-[#3f567a]" href="javascript:;">view</a></td>
+                          </tr>
+                          <tr class="border-b dark:border-gray-500">
+                            <td class="pl-5 pt-4 pb-4 text-sky-300">Brain Booster</td>
+                            <td class="pl-5 pt-4 pb-4">Mijat Stevovic</td>
+                            <td class="pl-5 pt-4 pb-4">James Hendrix</td>
+                            <td class="pl-5 pt-4 pb-4">10 May 2021</td>
+                            <td class="pl-5 pt-4 pb-4"><span class="bg-bg-5 text-white p-1 rounded-full text-sm"><i class="fa fa-check"></i></span></td>
+                            <td class="pl-5 pt-4 pb-4"><a class="px-3 py-1 border rounded-full border-[#3f567a] text-[#3f567a]" href="javascript:;">view</a></td>
+                          </tr>
+                          <tr class="border-b dark:border-gray-500">
+                            <td class="pl-5 pt-4 pb-4 text-sky-300">Brain Booster</td>
+                            <td class="pl-5 pt-4 pb-4">Mijat Stevovic</td>
+                            <td class="pl-5 pt-4 pb-4">James Hendrix</td>
+                            <td class="pl-5 pt-4 pb-4">10 May 2021</td>
+                            <td class="pl-5 pt-4 pb-4"><span class="bg-bg-5 text-white p-1 rounded-full text-sm"><i class="fa fa-check"></i></span></td>
+                            <td class="pl-5 pt-4 pb-4"><a class="px-3 py-1 border rounded-full border-[#3f567a] text-[#3f567a]" href="javascript:;">view</a></td>
+                          </tr>
+                          <tr class="border-b dark:border-gray-500">
+                            <td class="pl-5 pt-4 pb-4 text-sky-300">Brain Booster</td>
+                            <td class="pl-5 pt-4 pb-4">Mijat Stevovic</td>
+                            <td class="pl-5 pt-4 pb-4">James Hendrix</td>
+                            <td class="pl-5 pt-4 pb-4">10 May 2021</td>
+                            <td class="pl-5 pt-4 pb-4"><span class="bg-bg-5 text-white p-1 rounded-full text-sm"><i class="fa fa-check"></i></span></td>
+                            <td class="pl-5 pt-4 pb-4"><a class="px-3 py-1 border rounded-full border-[#3f567a] text-[#3f567a]" href="javascript:;">view</a></td>
+                          </tr>
+                          <tr class="border-b dark:border-gray-500">
+                            <td class="pl-5 pt-4 pb-4 text-sky-300">Brain Booster</td>
+                            <td class="pl-5 pt-4 pb-4">Mijat Stevovic</td>
+                            <td class="pl-5 pt-4 pb-4">James Hendrix</td>
+                            <td class="pl-5 pt-4 pb-4">10 May 2021</td>
+                            <td class="pl-5 pt-4 pb-4"><span class="bg-bg-5 text-white p-1 rounded-full text-sm"><i class="fa fa-check"></i></span></td>
+                            <td class="pl-5 pt-4 pb-4"><a class="px-3 py-1 border rounded-full border-[#3f567a] text-[#3f567a]" href="javascript:;">view</a></td>
+                          </tr>
+                          <tr class="border-b dark:border-gray-500">
+                            <td class="pl-5 pt-4 pb-4 text-sky-300">Brain Booster</td>
+                            <td class="pl-5 pt-4 pb-4">Mijat Stevovic</td>
+                            <td class="pl-5 pt-4 pb-4">James Hendrix</td>
+                            <td class="pl-5 pt-4 pb-4">10 May 2021</td>
+                            <td class="pl-5 pt-4 pb-4"><span class="bg-bg-5 text-white p-1 rounded-full text-sm"><i class="fa fa-check"></i></span></td>
+                            <td class="pl-5 pt-4 pb-4"><a class="px-3 py-1 border rounded-full border-[#3f567a] text-[#3f567a]" href="javascript:;">view</a></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <p class="text-sm py-2 pl-5 text-gray-400">Total: 6</p>
+                    </div>
+                    <div class="overflow-x-scroll md:overflow-visible bg-white hidden-text tab-text">
+                      <table class="table-auto text-left w-full mb-5">
+                        <thead class="text-gray-400 text-sm">
+                          <tr>
+                            <th class="px-5 pt-7">Promoted</th>
+                            <th class="px-5 pt-7">Graphic Designer</th>
+                            <th class="px-5 pt-7">Client</th>
+                            <th class="px-5 pt-7">Recived</th>
+                            <th class="px-5 pt-7">Status</th>
+                            <th class="px-5 pt-7">Action</th>
+                          </tr>
+                        </thead>
+                        <tbody class="text-gray-500 ">
+                          <tr class="border-b dark:border-gray-500">
+                            <td class="pl-5 pt-4 pb-4 text-sky-300">Brain Booster</td>
+                            <td class="pl-5 pt-4 pb-4">Mijat Stevovic</td>
+                            <td class="pl-5 pt-4 pb-4">James Hendrix</td>
+                            <td class="pl-5 pt-4 pb-4">10 May 2021</td>
+                            <td class="pl-5 pt-4 pb-4"><span class="bg-bg-5 text-white p-1 rounded-full text-sm"><i class="fa fa-check"></i></span></td>
+                            <td class="pl-5 pt-4 pb-4"><a class="px-3 py-1 border rounded-full border-[#3f567a] text-[#3f567a]" href="">view</a></td>
+                          </tr>
+                          <tr class="border-b dark:border-gray-500">
+                            <td class="pl-5 pt-4 pb-4 text-sky-300">Brain Booster</td>
+                            <td class="pl-5 pt-4 pb-4">Mijat Stevovic</td>
+                            <td class="pl-5 pt-4 pb-4">James Hendrix</td>
+                            <td class="pl-5 pt-4 pb-4">10 May 2021</td>
+                            <td class="pl-5 pt-4 pb-4"><span class="bg-bg-5 text-white p-1 rounded-full text-sm"><i class="fa fa-check"></i></span></td>
+                            <td class="pl-5 pt-4 pb-4"><a class="px-3 py-1 border rounded-full border-[#3f567a] text-[#3f567a]" href="">view</a></td>
+                          </tr>
+                          <tr class="border-b dark:border-gray-500">
+                            <td class="pl-5 pt-4 pb-4 text-sky-300">Brain Booster</td>
+                            <td class="pl-5 pt-4 pb-4">Mijat Stevovic</td>
+                            <td class="pl-5 pt-4 pb-4">James Hendrix</td>
+                            <td class="pl-5 pt-4 pb-4">10 May 2021</td>
+                            <td class="pl-5 pt-4 pb-4"><span class="bg-bg-5 text-white p-1 rounded-full text-sm"><i class="fa fa-check"></i></span></td>
+                            <td class="pl-5 pt-4 pb-4"><a class="px-3 py-1 border rounded-full border-[#3f567a] text-[#3f567a]" href="">view</a></td>
+                          </tr>
+                          <tr class="border-b dark:border-gray-500">
+                            <td class="pl-5 pt-4 pb-4 text-sky-300">Brain Booster</td>
+                            <td class="pl-5 pt-4 pb-4">Mijat Stevovic</td>
+                            <td class="pl-5 pt-4 pb-4">James Hendrix</td>
+                            <td class="pl-5 pt-4 pb-4">10 May 2021</td>
+                            <td class="pl-5 pt-4 pb-4">pending</td>
+                            <td class="pl-5 pt-4 pb-4"><a class="px-3 py-1 border rounded-full border-[#3f567a] text-[#3f567a]" href="">view</a></td>
+                          </tr>
+                          <tr class="border-b dark:border-gray-500">
+                            <td class="pl-5 pt-4 pb-4 text-sky-300">Brain Booster</td>
+                            <td class="pl-5 pt-4 pb-4">Mijat Stevovic</td>
+                            <td class="pl-5 pt-4 pb-4">James Hendrix</td>
+                            <td class="pl-5 pt-4 pb-4">10 May 2021</td>
+                            <td class="pl-5 pt-4 pb-4"><span class="bg-bg-5 text-white p-1 rounded-full text-sm"><i class="fa fa-check"></i></span></td>
+                            <td class="pl-5 pt-4 pb-4"><a class="px-3 py-1 border rounded-full border-[#3f567a] text-[#3f567a]" href="">view</a></td>
+                          </tr>
+                          <tr class="border-b dark:border-gray-500">
+                            <td class="pl-5 pt-4 pb-4 text-sky-300">Brain Booster</td>
+                            <td class="pl-5 pt-4 pb-4">Mijat Stevovic</td>
+                            <td class="pl-5 pt-4 pb-4">James Hendrix</td>
+                            <td class="pl-5 pt-4 pb-4">10 May 2021</td>
+                            <td class="pl-5 pt-4 pb-4"><span class="bg-bg-5 text-white p-1 rounded-full text-sm"><i class="fa fa-check"></i></span></td>
+                            <td class="pl-5 pt-4 pb-4"><a class="px-3 py-1 border rounded-full border-[#3f567a] text-[#3f567a]" href="">view</a></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <p class="text-sm py-2 pl-5 text-gray-400">Total: 7</p>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            <!-- Modal content -->
+             <div class="modal">
+              <div class="modal-content-8">
+                <div class="pb-3 flex justify-between items-center">
+                  <h3 class="text-gray-600 text-2xl font-medium">Company Name</h3>
+                  <span class="close-button">×</span>
+               </div>
+               <hr>
+                <div class="pt-3">
+                  <h3 class="text-gray-600 text-xl font-medium">Formats</h3>
+                  <p class="text-xs text-gray-400">The designers needs to deliver vector file (Ai, EPS, PDF) in CMYK and RGB aolor modes, and image file (JPEG. PNG)</p>
+                  <div class="flex flex-wrap items-center pt-3 justify-between">
+                    <div class="w-16 border border-gray-600 p-1"><img src="../src/assets/image/stryve.png" alt=""></div>
+                    <div>
+                      <p class="text-sm text-gray-500">#1 File Name</p>
+                      <p class="text-sm text-gray-400">5 Minutes ago</p>
+                    </div>
+                    <p class="text-sm text-gray-400"> 354 MB</p>
+                    <a class="text-white bg-gray-500 px-4 py-1 text-xs rounded-lg" href="">Download</a>
+                    <div>
+                      <a class="text-white bg-bg-5 px-4 py-1 text-xs rounded-lg" href="">Approved</a>
+                      <a class="text-white bg-red-600 px-4 py-1 text-xs rounded-lg" href="">Dissapprove</a>
+                    </div>
+                  </div>
+
+                  <h3 class="pt-10 text-gray-600 text-xl font-medium">Sizes</h3>
+                  <p class="text-xs text-gray-400">The designer needs to deliver profile pics with logo in the right sizes for different platforms that can be clearly visible</p>
+                  <div class="flex flex-wrap items-center pt-3 justify-between">
+                    <div class="w-16 border border-gray-600 p-1"><img src="../src/assets/image/stryve.png" alt=""></div>
+                    <div>
+                      <p class="text-sm text-gray-500">#1 File Name</p>
+                      <p class="text-sm text-gray-400">5 Minutes ago</p>
+                    </div>
+                    <p class="text-sm text-gray-400"> 354 MB</p>
+                    <a class="text-white bg-gray-500 px-4 py-1 text-xs rounded-lg" href="">Download</a>
+                    <div>
+                      <a class="text-white bg-bg-5 px-4 py-1 text-xs rounded-lg" href="">Approved</a>
+                      <a class="text-white bg-red-600 px-4 py-1 text-xs rounded-lg" href="">Dissapprove</a>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          <!-- Modal content -->
+
+               
+
+              <!-- Modal content 3-->
+              <div class="modal3">
+                <div class="modal-content-5">
+                  <div class="pb-5">
+                      <span class="close-button3">×</span>
+                  </div>
+                  <div class="text-white pt-2 text-center">
+                    <h3 class="lg:text-2xl text-lg lg:font-semibold text-red-500">You want to dissapprove the design ?</h3>
+                    <p class="md:text-sm text-xs text-gray-400 md:py-3 py-1">Please provide all the details why the design has been dissapproved so our designers can make the changes</p>
+                    <textarea class=" no-resize appearance-none block w-full bg-white text-gray-600 border border-gray-300 rounded py-3 px-4 mb-3 leading-tight focus:outline-none md:h-28 h-20 resize-none" id="message" placeholder="Your Massage"></textarea>
+                    <div class="pt-2"><a class="px-6 py-2 bg-bg-5 rounded" href="javascript:;">Send</a></div>
+                  </div>
+                </div>
+              </div>
+            <!-- Modal content 3-->
+
+        
+            </div>
+
+            <!--====================== middle section End ========================-->
+
+        </div>
+
+
+            
+
+    <!--========================= custom js add =========================-->
+    <script src="../src/assets/js/main.js"></script>
+
+    <script>
+      var modal = document.querySelector(".modal");
+      var trigger = document.querySelector(".trigger");
+      var closeButton = document.querySelector(".close-button");
+      
+      function toggleModal() {
+          modal.classList.toggle("show-modal");
+      }
+      function windowOnClick(event) {
+          if (event.target === modal) {
+              toggleModal();
+          }
+      }
+      trigger.addEventListener("click", toggleModal);
+      closeButton.addEventListener("click", toggleModal);
+      window.addEventListener("click", windowOnClick);
+    </script>
+
+     <script>
+      var modal3 = document.querySelector(".modal3");
+      var trigger3 = document.querySelector(".trigger3");
+      var closeButton3 = document.querySelector(".close-button3");
+      
+      function toggleModal() {
+          modal3.classList.toggle("show-modal-3");
+      }
+      function windowOnClick(event) {
+          if (event.target === modal3) {
+              toggleModal();
+          }
+      }
+      trigger3.addEventListener("click", toggleModal);
+      closeButton3.addEventListener("click", toggleModal);
+      window.addEventListener("click", windowOnClick);
+    </script>
+
+   
+    <script>
+      let tabBtn = document.querySelectorAll('.tab-btn');
+       let tabText = document.querySelectorAll('.tab-text');
+
+       for(let i = 0; i < tabBtn.length; i++){
+           tabBtn[i].addEventListener('click', function(){
+               for(let j = 0; j < tabText.length; j++){
+                   tabText[j].classList.add('hidden-text');
+                   tabBtn[j].classList.remove('active3');
+               }
+               tabText[i].classList.remove('hidden-text');
+               tabBtn[i].classList.add('active3');
+           })
+       }
+   </script>
+
+
+<script>
+  var btn4 = document.getElementById("popup-btn4");
+  var text4 = document.getElementById("popup-text4");
+
+  btn4.addEventListener("click", function (e) {
+    text4.classList.toggle("hidden");
+    e.stopPropagation();
+  });
+
+  window.addEventListener("click", windoClick);
+  function windoClick(e) {
+    if (!e.target.closest(".popup-text4")) {
+      text4.classList.add("hidden");
+    }
+  }
+</script>
+
+</body>
+</html>

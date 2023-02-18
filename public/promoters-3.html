@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dashboard</title>
+    <link rel="stylesheet" href="../src/assets/icon/css/all.min.css">
+    <link rel="stylesheet" href="../dist/style.css">
+    <link rel="stylesheet" href="../src/input.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body class="bg-gray-200">
+    <!--======================== Top Header start =======================-->
+        <section class="py-2 bg-white">
+            <div class="mx-wiidth">
+                <div class="flex flex-wrap">
+                    <div class="navigation w-full">
+                        <div class="flex items-center lg:justify-end justify-between">
+                            <div class="flex cursor-pointer w-8 h-5 lg:hidden menu">
+                              <i class="text-2xl text-gray-500 fas fa-bars"></i>
+                            </div>
+
+                            <div class="flex items-center cursor-pointer ">
+                              <a href="javascript:;">
+                                <i class="md:text-3xl text-2xl cursor-pointer text-gray-400 fa fa-bell mr-2"></i>
+                              </a>
+                              <div class="flex items-center border-l-2">
+                                <img class="border-2 border-[#5dc293] rounded-full md:w-16 w-12 h-12 md:h-16 ml-2" src="../src/assets/image/login-men.png" class=" rounded-full" alt="">
+                                <div class="pl-3">
+                                  <select class="cursor-pointer outline-none bg-transparent md:text-lg text-base font-medium text-gray-400">
+                                    <option value=""> Stephan Austin</option>
+                                    <option value="">Stephan Austin</option>
+                                    <option value="">Stephan Austin</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!--====================== Top Header end ==========================-->
+    <!--====================== Side bar start ========================-->
+             <div class="flex">
+                <div class="bg-white menu-list lg:block hidden">
+                  <ul class="px-5 pb-10 relative">
+                    <li class="sideBar"><a href="dashboard.html"><img class="w-72" src="../src/assets/image/logo.png" alt=""></a></li>
+
+          <li class="text-[#3f567a] text-2xl font-medium pt-24 pb-4 text-center">Affiliate Dashboard</li>
+          <li class="border-b-2"></li>
+
+          <li class="text-gray-400 group mt-5 hover:bg-bg-5 rounded-lg py-4 cursor-pointer">
+            <a class="group-hover:text-white px-4" href="dashboard.html"><i class="text-2xl fa fa-landmark mr-2"></i> Dashboard</a>
+        </li>
+       
+
+        <li class="text-gray-400 group hover:bg-bg-5 rounded-lg py-4 cursor-pointer">
+          <a class="group-hover:text-white px-4 flex" href="campaigns.html"><svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z" />
+          </svg> Campaigns</a>
+        </li>
+        
+        <li class="text-gray-400 active4 group hover:bg-bg-5 rounded-lg py-4 cursor-pointer">
+          <a class="group-hover:text-white px-4" href="promoters.html"><i class="text-2xl fa fa-users pr-2"></i> Promoters</a>
+        </li>
+
+        <li class="text-gray-400 group hover:bg-bg-5 rounded-lg py-4 cursor-pointer">
+          <a class="group-hover:text-white px-4" href="promotions.html"><i class="text-2xl pr-2 fab fa-telegram-plane"></i> Promotions</a>
+        </li>
+      
+        <li class="text-gray-400 group hover:bg-bg-5 rounded-lg py-4 cursor-pointer">
+          <a class="group-hover:text-white px-4" href="leads.html"><i class="text-2xl pr-2 fas fa-address-book"></i> Leads</a>
+        </li>
+        <li class="text-gray-400 group hover:bg-bg-5 rounded-lg py-4 cursor-pointer">
+          <a class="group-hover:text-white px-4 flex flex-wrap items-center" href="Rewards-Commissions.html"><svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 pr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg> Rewards/Commissions</a>
+        </li>
+        <li class="text-gray-400 group hover:bg-bg-5 rounded-lg py-4 cursor-pointer">
+          <a class="group-hover:text-white px-4" href="payouts.html"><i class="text-2xl fa fa-coins mr-2"></i> Payouts</a>
+        </li>
+
+        <li class="text-[#3f567a] text-2xl font-medium pt-8 pb-4 px-2">Other</li>
+        <li class="border-b-2 mx-3"></li>
+
+        <li class="text-gray-400 group mt-5 hover:bg-bg-5 rounded-lg py-4 cursor-pointer">
+          <a class="group-hover:text-white px-4 flex flex-wrap items-center" href="support.html"><i class="text-2xl far fa-comment-alt mr-3"></i> Help & Support</a>
+        </li>
+
+        <li class="text-gray-400 group hover:bg-bg-5 rounded-lg py-4 cursor-pointer">
+          <a class="group-hover:text-white px-4" href="profile.html"><i class="text-2xl fas fa-sliders-h mr-2"></i> My Profile/Settings</a>
+        </li>
+
+        <li class="text-gray-400 group hover:bg-bg-5 rounded-lg py-4 cursor-pointer">
+          <a class="group-hover:text-white px-4 flex flex-wrap items-center" href="login.html"><i class="text-2xl fas fa-volume-down mr-3"></i><b>Log out</b></a>
+        </li>
+                  </ul>
+                </div>
+                <!--====================== mobile Side bar start ========================-->
+            <div>
+              <ul class="space-y-3 fixed top-0 min-h-0 overflow-y-auto bg-gray-100 h-screen md:w-80 w-72 p-3 -ml-80 sidebar duration-500 z-50 lg:hidden">
+                  <li class="pb-4 border-b flex justify-end "><button class="hover:text-green-500 duration-300 close" type=""><i class="text-2xl fa fa-times"></i></button></li>
+                  <li class=""><a href="dashboard.html"><img class="w-72" src="../src/assets/image/logo.png" alt=""></a></li>
+
+                  <li class="text-[#3f567a] text-2xl font-medium lg:pt-24 pt-3 pb-4 text-center">Affiliate Dashboard</li>
+                  <li class="border-b-2"></li>
+
+                  <li class="text-gray-400 group mt-5 hover:bg-bg-5 rounded-lg py-4 cursor-pointer">
+                    <a class="group-hover:text-white px-4" href="dashboard.html"><i class="text-2xl fa fa-landmark mr-2"></i> Dashboard</a>
+                  </li>
+               
+                <li class="text-gray-400 group hover:bg-bg-5 rounded-lg py-4 cursor-pointer">
+                  <a class="group-hover:text-white px-4 flex" href="campaigns.html"><svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z" />
+                  </svg> Campaigns</a>
+                </li>
+                <li class="text-gray-400 group hover:bg-bg-5 active4 rounded-lg py-4 cursor-pointer">
+                  <a class="group-hover:text-white px-4" href="promoters.html"><i class="text-2xl fa fa-users pr-2"></i> Promoters</a>
+                </li>
+                <li class="text-gray-400 group hover:bg-bg-5 rounded-lg py-4 cursor-pointer">
+                  <a class="group-hover:text-white px-4" href="promotions.html"><i class="text-2xl pr-2 fab fa-telegram-plane"></i> Promotions</a>
+                </li>
+                <li class="text-gray-400 group hover:bg-bg-5 rounded-lg py-4 cursor-pointer">
+                  <a class="group-hover:text-white px-4" href="leads.html"><i class="text-2xl pr-2 fas fa-address-book"></i> Leads</a>
+                </li>
+                <li class="text-gray-400 group hover:bg-bg-5 rounded-lg py-4 cursor-pointer">
+                  <a class="group-hover:text-white px-4 flex flex-wrap items-center" href=""><svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 pr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg> Rewards / Commissions</a>
+                </li>
+                <li class="text-gray-400 group hover:bg-bg-5 rounded-lg py-4 cursor-pointer">
+                  <a class="group-hover:text-white px-4" href="payouts.html"><i class="text-2xl fa fa-coins mr-2"></i> Payouts</a>
+                </li>
+      
+                <li class="text-[#3f567a] text-2xl font-medium pt-8 pb-4 px-2">Other</li>
+                <li class="border-b-2 mx-3"></li>
+      
+                <li class="text-gray-400 group mt-5 hover:bg-bg-5 rounded-lg py-4 cursor-pointer">
+                  <a class="group-hover:text-white px-4 flex flex-wrap items-center" href="support.html"><i class="text-2xl far fa-comment-alt mr-3"></i> Help & Support</a>
+                </li>
+      
+                <li class="text-gray-400 group hover:bg-bg-5 rounded-lg py-4 cursor-pointer">
+                  <a class="group-hover:text-white px-4" href="profile.html"><i class="text-2xl fas fa-sliders-h mr-2"></i> My Profile/Settings</a>
+                </li>
+      
+                <li class="text-gray-400 group hover:bg-bg-5 rounded-lg py-4 cursor-pointer">
+                  <a class="group-hover:text-white px-4 flex flex-wrap items-center" href="login.html"><i class="text-2xl fas fa-volume-down mr-3"></i><b>Log out</b></a>
+                </li>
+                
+              </ul>
+          </div>
+            <!--====================== mobile Side bar End ========================-->
+
+
+            <!--====================== middle section start ========================-->
+            <div class="md:px-6 px-2 pt-10 mb-20 right-text">
+              <h3 class="md:text-3xl text-2xl text-[#3f567a] font-medium">PROMOTERS</h3>
+               
+              <div class="bg-[#f6f8fa] md:p-4 p-2 mt-10 border-b-2 border-gray-400">
+                <div class="flex flex-wrap">
+                  <div class="w-full md:w-5/12 pb-10 lg:pb-0">
+                    <div class="pb-2 flex ">
+                      <div class="">
+                        <img class="bg-gray-500 rounded-full h-20 w-20 mb-2" src="../src/assets/image/login-men.png" alt="">
+                        <a href=""><h2 class="text-sm text-sky-600"><span class="mr-2"><i class="fa fa-user"></i></span>Edit profile</h2></a>
+                      </div>
+                      <div class="md:pl-4 pl-0">
+                        <h3 class="text-xl text-[#3f567a] font-medium">Angela <span class="text-sm text-sky-600 cursor-pointer pl-1"><i class="fa fa-external-link-alt"></i></span></h3>
+                        <p class="text-sky-600 font-medium py-2"><i class="fa fa-envelope"></i> alealaogate@yahoo.com</p>
+                        <p class="text-sky-600 text-sm"><span class="text-gray-400"><i class="fab fa-paypal"></i>Email: </span> alealaogate@yahoo.com <i class="text-sm text-bg-5 fa fa-check"></i></p>
+                        <div class="text-gray-400 pt-4 space-x-3">
+                          <a href=""><span class="text-2xl"><i class="fab fa-facebook-square"></i></span></a>
+                          <a href=""><span class="text-2xl"><i class="fab fa-twitter"></i></span></a>
+                          <a href=""><span class="text-2xl"><i class="fab fa-youtube-square"></i></span></a>
+                          <a class="" href=""><span class="text-2xl"><i class="fab fa-linkedin-in"></i></span></a>
+                          <a class="text-sm text-sky-600" href=""><span class="text-lg border-gray-500 border-l pl-4"><i class="far fa-file"></i></span> Add note</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="sm:w-4/12 md:w-6/12 w-2/12 lg:w-2/12">
+                     <div class="md:float-right float-left">
+                      <p class="text-gray-500 font-medium "><i class="pr-2 fa fa-calendar-alt"></i> Joined</p>
+                      <p class="text-sm text-gray-400 pt-2">26 Dec 2021 13.43</p>
+
+                      <p class="text-gray-500 font-medium pt-8"><i class="pr-2 fa fa-globe"></i> Website</p> 
+                      <p class="text-sm text-gray-400 pt-2">Not set</p>
+                     </div>
+                  </div>
+                  <div class="sm:w-4/12 md:w-6/12 w-2/12 lg:w-2/12 md:px-4 px-2">
+                    <p class="text-gray-500 font-medium "><i class="pr-2 fa fa-building"></i> Company</p>
+                    <p class="text-sm text-gray-400 pt-2">Not set</p>
+
+                    <p class="text-gray-500 font-medium pt-8"><i class="pr-2 fa fa-globe-africa"></i> Country</p>
+                    <p class="text-sm text-gray-400 pt-2">Not set</p>
+                  </div>
+                  <div class="sm:w-4/12 md:w-6/12 w-3/12 lg:w-3/12">
+                    <p class="text-gray-500 font-medium "><i class="pr-2 fa fa-phone-alt"></i> Phone Number</p>
+                    <p class="text-sm text-gray-400 pt-2">Not set</p>
+
+                    <p class="text-gray-500 font-medium pt-8"><i class="pr-2 fa fa-comment-alt"></i> Other details</p>
+                    <p class="text-sm text-gray-400 pt-2">Not other details</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="flex flex-wrap p-3 bg-[#edf2f8]">
+                <div class="md:flex md:justify-between w-full pb-6">
+                  <h2 class="text-xl text-[#3f567a] font-medium"><span class="text-xs text-gray-400">Filter: </span>Marketing Mentors Affiliate</h2>
+                  <div class="border border-gray-400 bg-white h-9 rounded md:w-80 w-72 mt-5 md:mt-0">
+                    <select class="text-xs text-gray-500 outline-none bg-transparent cursor-pointer py-2 md:px-3 px-1">
+                      <option value="Warehouse">February 7, 2021-March 8, 2021 (Last 30 days)</option>
+                      <option value="Warehouse">February 7, 2021-March 8, 2021 (Last 30 days)</option>
+                      <option value="Warehouse">February 7, 2021-March 8, 2021 (Last 30 days)</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="sm:w-4/12 md:w-6/12 w-6/12 lg:w-2/12 text-center">
+                  <p class="text-sm text-gray-400 pb-2">Revenue</p>
+                  <p class="text-lg font-semibold text-gray-500 pb-2">$178</p>
+                </div>
+                <div class="sm:w-4/12 md:w-6/12 w-6/12 lg:w-2/12 text-center">
+                  <p class="text-sm text-gray-400 pb-2">Clicks</p>
+                  <p class="text-lg font-semibold text-gray-500 pb-2">0</p>
+                </div>
+                <div class="sm:w-4/12 md:w-6/12 w-6/12 lg:w-2/12 text-center">
+                  <p class="text-sm text-gray-400 pb-2"><span class="text-white bg-sky-400 px-1 rounded-full"><b>i</b></span> New Referrals</p>
+                  <p class="text-lg font-semibold text-gray-500 pb-2">1</p>
+                </div>
+                <div class="sm:w-4/12 md:w-6/12 w-6/12 lg:w-3/12 text-center mt-5 md:mt-0">
+                  <p class="text-sm text-gray-400 pb-2">New Customers</p>
+                  <p class="text-lg font-semibold text-gray-500 pb-2">1</p>
+                </div>
+                <div class="sm:w-4/12 md:w-6/12 w-6/12 lg:w-3/12 text-center mt-5 md:mt-0">
+                  <p class="text-sm text-gray-400 pb-2"><span class="text-white bg-sky-400 px-1 rounded-full"><b>i</b></span> Cancelleds Customers</p>
+                  <p class="text-lg font-semibold text-gray-500 pb-2">0</p>
+                </div>
+
+
+                <div class="flex flex-wrap pt-8 w-full">
+                    <div>
+                      <button class="text-gray-400 bg-gray-50 px-4 py-3">All campaign</button>
+                      <button class="bg-gray-50 px-4 py-3 text-gray-400 active3">Marketing Mentors Affiliate</button>
+                      <button class="px-4 py-3 text-gray-400"><b><span class="text-bg-5">+</span> Add to campaign</b></button>
+                    </div>
+                    <div class="flex flex-wrap w-full bg-white p-3">
+                        <div class="w-full md:w-6/12">
+                          <h4 class="text-[#3f567a] font-medium pb-2">Rewards Summary</h4>
+                          <hr>
+                          <div class="flex flex-wrap ">
+                            <div class="w-3/12">
+                              <p class="text-sm text-gray-400 pt-3 pb-5">Pending</p>
+                              <p class="text-sm text-gray-400 pb-5">Denied</p>
+                              <p class="text-sm text-gray-400 pb-5">Approved</p>
+                            </div>
+                            <div class="w-3/12">
+                              <p class="text-sm text-gray-400  pt-3 pb-5">0</p>
+                              <p class="text-sm text-gray-400 pb-5">0</p>
+                              <div class="">
+                                <span class="text-white bg-bg-5 px-2 py-1 rounded">1</span>
+                              </div>
+                            </div>
+                            <div class="w-6/12 flex items-center justify-center border-r">
+                              <div class="">
+                                <p class="text-sm text-gray-400 pb-2">Total unpaid <span class="text-white bg-sky-400 px-1 rounded-full"><b>i</b></span></p>
+                                <p class="md:text-3xl text-xl text-gray-500"><span class="text-gray-400">$</span>106.<span class="md:text-xl text-lg text-gray-400">80</span></p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="w-full md:w-6/12 mt-5 md:mt-0">
+                          <h4 class="text-[#3f567a] font-medium pb-2 md:pl-5 pl-0">Payouts Summary</h4>
+                          <hr>
+                          <div class="flex flex-wrap md:pl-5 pl-0">
+                            <div class="w-3/12">
+                              <p class="text-sm text-gray-400 pt-3 pb-5">Pending</p>
+                              <p class="text-sm text-gray-400 pb-5">Overdue</p>
+                              <p class="text-sm text-gray-400 pb-5">Completed</p>
+                            </div>
+                            <div class="w-3/12">
+                              <div class="pt-3 pb-5">
+                                <span class="text-white bg-bg-5 px-2 py-1 rounded">1</span>
+                              </div>
+                              <p class="text-sm text-gray-400 pb-5">0</p>
+                              <p class="text-sm text-gray-400 pb-5">0</p>
+                            </div>
+                            <div class="w-6/12 flex items-center justify-center">
+                              <div class="text-center">
+                                <p class="text-sm text-gray-400 pb-2">Paid</p>
+                                <p class="md:text-3xl text-2xl text-gray-500">Nothing</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <!-- <div class="hidden-text tab-text"></div>                  -->
+                </div>
+              </div>
+
+              <div class="flex flex-wrap p-3 bg-[#edf2f8] mt-6 ">
+                <div class=" flex flex-wrap w-full bg-white p-3 mb-5">
+                  <div class="w-full md:w-6/12 border-b">
+                    <h4 class="text-[#3f567a] font-medium pb-2">Rewards <a class="px-3 py-2 bg-bg-5 text-white rounded-full text-sm" href="">Customize</a></h4>
+                    <hr>
+                    <div class="flex flex-wrap ">
+                      <div class="w-full">
+                        <p class="text-xl text-gray-400 pt-3 pb-16">40% recurring commission <span class="text-sm text-gray-500">( persel - all plans )</span></p>
+                        <p class="text-xl text-[#3f567a] font-semibold pb-5">Referral Link</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="w-full md:w-6/12 mt-5 md:mt-0 border-b">
+                    <h4 class="text-[#3f567a] font-medium pb-2 md:pl-5 pl-0">Offer <a class="px-3 py-2 bg-bg-5 text-white rounded-full text-sm" href="">Customize</a></h4>
+                    <hr>
+                    <div class="flex flex-wrap md:pl-5 pl-0 border-l">
+                      <div class="w-full">
+                        <p class="text-xl text-gray-400 pt-3 pb-5">None</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="relative flex items-center w-full mt-6 mb-4">
+                    <input class="outline-none w-full px-2 h-12 border border-gray-400 bg-gray-100 rounded" placeholder="https://www.linkedin.com/" type="text">
+                    <div class=" absolute top-0 right-0 w-20 bg-white flex justify-center items-center border rounded-r border-gray-400" style="height: 48px;">
+                      <button class="text-sky-600">copy link</button>
+                    </div>
+                  </div>
+              </div>
+              </div>
+
+              <!-- table -->
+              <div class="flex flex-wrap bg-[#edf2f8]">
+                <div class="w-full">
+                  <div class="flex flex-wrap">
+                    <div class="w-full md:w-8/12">
+                      <button class="text-gray-400 bg-gray-50 px-4 py-3 tab-btn active3">Rewards</button>
+                      <button class="bg-gray-50 px-4 py-3 text-gray-400 tab-btn">Leads</button>
+                      <button class="bg-gray-50 px-4 py-3 text-gray-400 tab-btn">Customers</button>
+                      <button class="bg-gray-50 px-4 py-3 text-gray-400 tab-btn">Payouts</button>
+                      <button class="bg-gray-50 px-4 py-3 text-gray-400 tab-btn mt-2 md:mt-0">Payout methods <a class="bg-bg-5 px-2 py-1 rounded-full text-xs text-white" href="">new</a></button>
+                      <button class="bg-gray-50 px-4 py-3 text-gray-400 tab-btn mt-2 md:mt-0">sub-affiliates</button>
+                    </div>
+                    <div class="w-full md:w-4/12 md:flex justify-end pt-2 md:pt-0">
+                      <button class="bg-gray-50 px-4 py-3 text-gray-400 tab-btn mr-1">Referrel URLs</button>
+                      <button class="bg-gray-50 px-4 py-3 text-gray-400">Top URLs</button>
+                    </div>
+                  </div>
+                  <div class="tab-text bg-white p-3">
+                    <div class="flex flex-wrap py-5">
+                      <div class="w-full md:w-6/12">
+                       <div class="flex">
+                        <a class="px-4 py-3 bg-gray-200 text-gray-500 rounded-l border border-gray-400" href="">All</a>
+                        <a class="px-3 py-3 bg-gray-100 text-gray-500  border border-gray-400" href="">pending</a>
+                        <a class="px-3 py-3 bg-gray-100 text-gray-500  border border-gray-400" href="">Approved</a>
+                        <a class="px-3 py-3 bg-gray-100 text-gray-500 rounded-r border border-gray-400" href="">Denied</a>
+                       </div>
+                      </div>
+                      <div class="w-full md:w-6/12 mt-10 md:mt-0">
+                        <div class="md:float-right">
+                          <a class="px-3 py-3 bg-bg-5 text-white rounded" href="">Add rewords manually</a>
+                          <span class="border border-gray-300 px-4 rounded py-2 cursor-pointer text-gray-500"><i class="fa fa-download"></i></span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=" overflow-x-scroll md:overflow-visible">
+                      <table class="table-auto w-full">
+                        <thead class="text-gray-500 font-normal">
+                          <tr>
+                            <th class="px-2 pt-7"></th>
+                            <th class="px-2 pt-7">Amount</th>
+                            <th class="px-2 pt-7">Conversion Value</th>
+                            <th class="px-2 pt-7">Created at</th>
+                            <th class="px-2 pt-7">Event Id</th>
+                            <th class="px-2 pt-7">From Customer</th>
+                            <th class="px-2 pt-7">Campaing</th>
+                            <th class="px-2 pt-7">Action</th>
+                          </tr>
+                        </thead>
+                        <tbody class="text-gray-500">
+                          <tr class="border-b dark:border-gray-500">
+                            <th><span class="bg-bg-5 text-white p-1 rounded-full text-sm"><i class="fa fa-check"></i></span></th>
+                            <td class="pl-2 pt-4 pb-4">$345</td>
+                            <td class="pl-2 pt-4 pb-4">$34</td>
+                            <td class="pl-2 pt-4 pb-4">10 feb 2021, 18:48</td>
+                            <td class="pl-2 pt-4 pb-4">2</td>
+                            <td class="pl-2 pt-4 pb-4">nameaccount@gmail.com</td>
+                            <td class="pl-2 pt-4 pb-4 flex items-center"><div class="w-2 h-2 bg-sky-500 mr-2"></div>Marketing Monitors Affiliate</td>
+                            <td class="pl-2 pt-4 pb-4"><a class="px-3 py-2 bg-red-600 text-white text-sm rounded" href="">Deny</a></td>
+                          </tr>
+                          <tr class="border-b dark:border-gray-500">
+                            <th><span class="bg-bg-5 text-white p-1 rounded-full text-sm"><i class="fa fa-check"></i></span></th>
+                            <td class="pl-2 pt-4 pb-4">$345</td>
+                            <td class="pl-2 pt-4 pb-4">$34</td>
+                            <td class="pl-2 pt-4 pb-4">10 feb 2021, 18:48</td>
+                            <td class="pl-2 pt-4 pb-4">2</td>
+                            <td class="pl-2 pt-4 pb-4">nameaccount@gmail.com</td>
+                            <td class="pl-2 pt-4 pb-4 flex items-center"><div class="w-2 h-2 bg-sky-500 mr-2"></div>Marketing Monitors Affiliate</td>
+                            <td class="pl-2 pt-4 pb-4"><a class="px-3 py-2 bg-red-600 text-white text-sm rounded" href="">Deny</a></td>
+                          </tr>
+                          <tr class="border-b dark:border-gray-500">
+                            <th><span class="bg-bg-5 text-white p-1 rounded-full text-sm"><i class="fa fa-check"></i></span></th>
+                            <td class="pl-2 pt-4 pb-4">$345</td>
+                            <td class="pl-2 pt-4 pb-4">$34</td>
+                            <td class="pl-2 pt-4 pb-4">10 feb 2021, 18:48</td>
+                            <td class="pl-2 pt-4 pb-4">2</td>
+                            <td class="pl-2 pt-4 pb-4">nameaccount@gmail.com</td>
+                            <td class="pl-2 pt-4 pb-4 flex items-center"><div class="w-2 h-2 bg-sky-500 mr-2"></div>Marketing Monitors Affiliate</td>
+                            <td class="pl-2 pt-4 pb-4"><a class="px-3 py-2 bg-red-600 text-white text-sm rounded" href="">Deny</a></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+
+                  <div class="tab-text hidden-text bg-white p-3">
+                    <div class="flex flex-wrap py-5">
+                      <div class="w-full md:w-6/12">
+                        <div class="">
+                          <a class="px-3 py-3 bg-bg-5 text-white rounded" href=""><b>+</b> Add leads manually</a>
+                          <span class="border border-gray-300 px-4 rounded py-2 cursor-pointer text-gray-500"><i class="fa fa-download"></i></span>
+                        </div>
+                      </div>
+                      <div class="w-full md:w-6/12 mt-10 md:mt-0">
+                        <div class="md:float-right">
+                          <a class="px-3 py-3 bg-bg-5 text-white rounded" href="">Add rewords manually</a>
+                        </div>
+                      </div>
+                    </div>
+                    <table class="table-auto text-left w-full">
+                      <thead class="text-gray-400 font-normal">
+                        <tr>
+                          <th class="px-5 pt-7">State</th>
+                          <th class="px-5 pt-7">Email</th>
+                          <th class="px-5 pt-7">UID</th>
+                          <th class="px-5 pt-7">Campaign</th>
+                          <th class="px-5 pt-7">Created</th>
+                        </tr>
+                      </thead>
+                      <tbody class="text-gray-500 ">
+                        <tr class="border-b dark:border-gray-500">
+                          <td class="pl-5 pt-4 pb-4"></td>
+                          <td class="pl-5 pt-4 pb-4"></td>
+                          <td class="pl-5 pt-4 pb-4"></td>
+                          <td class="pl-5 pt-4 pb-4"></td>
+                          <td class="pl-5 pt-4 pb-4"></td>                         
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+
+                  <div class="tab-text hidden-text bg-white p-3">
+                    <div class="flex flex-wrap py-5">
+                      <div class="w-full md:w-6/12">
+                        <div class="">
+                          <span class="border border-gray-300 px-4 rounded py-2 cursor-pointer text-gray-500"><i class="fa fa-download"></i></span>
+                        </div>
+                      </div>
+                      <div class="w-full md:w-6/12 mt-10 md:mt-0">
+                        
+                      </div>
+                    </div> 
+                    <div class="overflow-x-scroll md:overflow-visible">
+                      <table class="table-auto text-left w-full">
+                        <thead class="text-gray-400 font-normal">
+                          <tr>
+                            <th class="px-5 pt-7">State</th>
+                            <th class="px-5 pt-7">Email</th>
+                            <th class="px-5 pt-7">UID</th>
+                            <th class="px-5 pt-7">Customer since</th>
+                            <th class="px-5 pt-7">Plan</th>
+                            <th class="px-5 pt-7">Campaign</th>
+                            <th></th>
+                          </tr>
+                        </thead>
+                        <tbody class="text-gray-500 ">
+                          <tr class="border-b dark:border-gray-500">
+                            <td class="pl-5 pt-4 pb-4"><a class="text-xs bg-bg-5 px-3 py-2 rounded text-white" href="">active</a></td>
+                            <td class="pl-5 pt-4 pb-4">macksick@gmail.com</td>
+                            <td class="pl-5 pt-4 pb-4">18</td>
+                            <td class="pl-5 pt-4 pb-4">10Fab2021</td>
+                            <td class="pl-5 pt-4 pb-4">price_1Hr3wtHMgoDo8th13TKVI2n</td> 
+                            <td class="pl-2 pt-4 pb-4 flex items-center"><div class="w-2 h-2 bg-sky-500 mr-2"></div>Marketing Monitors Affiliate</td>
+                            <td><i class="text-lg fa fa-ellipsis-h cursor-pointer"></i></td>
+                          </tr>
+                          <tr class="border-b dark:border-gray-500">
+                            <td class="pl-5 pt-4 pb-4"><a class="text-xs bg-bg-5 px-3 py-2 rounded text-white" href="">active</a></td>
+                            <td class="pl-5 pt-4 pb-4">macksick@gmail.com</td>
+                            <td class="pl-5 pt-4 pb-4">18</td>
+                            <td class="pl-5 pt-4 pb-4">10Fab2021</td>
+                            <td class="pl-5 pt-4 pb-4">price_1Hr3wtHMgoDo8th13TKVI2n</td> 
+                            <td class="pl-2 pt-4 pb-4 flex items-center"><div class="w-2 h-2 bg-sky-500 mr-2"></div>Marketing Monitors Affiliate</td>
+                            <td><i class="text-lg fa fa-ellipsis-h cursor-pointer"></i></td>
+                          </tr>
+                          <tr class="border-b dark:border-gray-500">
+                            <td class="pl-5 pt-4 pb-4"><a class="text-xs bg-bg-5 px-3 py-2 rounded text-white" href="">active</a></td>
+                            <td class="pl-5 pt-4 pb-4">macksick@gmail.com</td>
+                            <td class="pl-5 pt-4 pb-4">18</td>
+                            <td class="pl-5 pt-4 pb-4">10Fab2021</td>
+                            <td class="pl-5 pt-4 pb-4">price_1Hr3wtHMgoDo8th13TKVI2n</td> 
+                            <td class="pl-2 pt-4 pb-4 flex items-center"><div class="w-2 h-2 bg-sky-500 mr-2"></div>Marketing Monitors Affiliate</td>
+                            <td><i class="text-lg fa fa-ellipsis-h cursor-pointer"></i></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+
+                  <div class="tab-text hidden-text bg-white p-3">
+                    <div class="flex flex-wrap py-5">
+                      <div class="w-full md:w-6/12">
+                        <div class="flex">
+                          <a class="px-4 py-3 bg-gray-200 text-gray-500 rounded-l border border-gray-400" href="">All</a>
+                          <a class="px-3 py-3 bg-gray-100 text-gray-500  border border-gray-400" href="">pending</a>
+                          <a class="px-3 py-3 bg-gray-100 text-gray-500  border border-gray-400" href="">completed</a>
+                         </div>
+                      </div>
+                      <div class="w-full md:w-6/12 mt-10 md:mt-0">
+                        
+                      </div>
+                    </div> 
+                    <div class="overflow-x-scroll md:overflow-visible">
+                      <table class="table-auto text-left w-full">
+                        <thead class="text-gray-400 font-normal">
+                          <tr>
+                            <th class="px-5 pt-7">State</th>
+                            <th class="px-5 pt-7">Due</th>
+                            <th class="px-5 pt-7">Amount</th>
+                            <th class="px-5 pt-7">Reword name</th>
+                            <th class="px-5 pt-7">Campaign</th>
+                            <th class="px-5 pt-7">Paid at</th>
+                            <th></th>
+                          </tr>
+                        </thead>
+                        <tbody class="text-gray-500 ">
+                          <tr class="border-b dark:border-gray-500">
+                            <td class="pl-5 pt-4 pb-4"><a class="text-xs bg-bg-5 px-3 py-2 rounded text-white" href="">pending</a></td>
+                            <td class="pl-5 pt-4 pb-4">in 20 day</td>
+                            <td class="pl-5 pt-4 pb-4">$18.20</td>
+                            <td class="pl-5 pt-4 pb-4"></td>
+                            <td class="pl-2 pt-4 pb-4 flex items-center"><div class="w-2 h-2 bg-sky-500 mr-2"></div>Marketing Monitors Affiliate</td>
+                            <td class="pl-5 pt-4 pb-4">March 09 2021</td>
+                            <td><i class="text-lg fa fa-ellipsis-h cursor-pointer"></i></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <div class="flex justify-between text-gray-400 pt-5 pb-2">
+                        <p>Total items: 1</p>
+                        <p>Page <span class="bg-bg-5 px-3 py-2 rounded text-white">1</span></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="tab-text hidden-text bg-white p-3">
+                    <div class="flex flex-wrap py-5">
+                      <div class="w-full">
+                        <a class="px-3 py-3 bg-bg-5 text-white rounded" href=""><b>+</b> Add payout method</a>
+                      </div>
+                      <div class="w-full pt-5">
+                        <span class="flex items-center text-gray-400"> The selected payout method for campaing <div class="w-3 h-3 rounded bg-sky-500 mx-2"> </div> Marketing Monitors Affiliate  <i class="text-xl fab fa-paypal mx-2"> </i> Paypal</span>
+                      </div>
+                    </div> 
+                    <div class="overflow-x-scroll md:overflow-visible">
+                      <table class="table-auto text-left w-full">
+                        <thead class="text-gray-400 font-normal">
+                          <tr>
+                            <th class="px-5 pt-7">State</th>
+                            <th class="px-5 pt-7">Added</th>
+                            <th class="px-5 pt-7">Payout Method</th>
+                            <th class="px-5 pt-7">Preview</th>
+                            <th class="px-5 pt-7">Selected on</th>
+                            <th class="px-5 pt-7"></th>
+                            <th></th>
+                          </tr>
+                        </thead>
+                        <tbody class="text-gray-500 ">
+                          <tr class="border-b dark:border-gray-500">
+                            <td class="pl-5 pt-4 pb-4"><i class="text-bg-5 text-sm fa fa-check"></i> ready</td>
+                            <td class="pl-5 pt-4 pb-4">29 Dec, 2021</td>
+                            <td class="pl-5 pt-4 pb-4"><i class="text-xl fab fa-paypal mx-2"> </i> Paypal</td>
+                            <td class="pl-5 pt-4 pb-4">Email: macksick@gmail.com (<a class="text-sky-600" href="">Edit</a>)</td>
+                            <td class="pl-2 pt-4 pb-4 flex items-center"><div class="w-2 h-2 bg-sky-500 mr-2"></div>Marketing Monitors Affiliate</td>
+                            <td class="pl-5 pt-4 pb-4"><i class="bg-gray-400 px-1 rounded-full text-white text-sm fa fa-check"></i> selected</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+
+                  <div class="tab-text hidden-text bg-white p-3">
+                    <div class="flex flex-wrap py-5">
+                      <div class="w-full">
+                        <div class="relative flex items-center w-full mb-4">
+                          <input class="outline-none w-full pl-72 h-12 border border-gray-300 bg-gray-100 rounded" placeholder="https://www.linkedin.com/" type="text">
+                          <div class=" absolute top-0 left-0 w-72 bg-white flex justify-center items-center border rounded-r border-gray-300" style="height: 48px;">
+                            <button class="text-gray-400">promoter recruitment link (<span class="text-sky-600">copy link</span>) </button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="w-full md:w-6/12 pt-3">
+                        <a class="px-3 py-3 bg-bg-5 text-white rounded" href=""><b>+</b> Add payout method</a>
+                      </div>
+                      <div class="w-full md:w-6/12 md:pt-3 pt-5">
+                        <div class="relative w-full">
+                          <input class="p-3 border rounded w-full h-12" type="text" placeholder="Search">
+                          <span class="absolute top-3 right-4 cursor-pointer text-xl text-bg-5"><i class="fa fa-search"></i></span>
+                        </div>
+                      </div>
+                    </div> 
+                    <div class="overflow-x-scroll md:overflow-visible">
+                      <table class="table-auto text-left w-full">
+                        <thead class="text-gray-400 font-normal">
+                          <tr>
+                            <th class="px-5 pt-7">Promoter Name</th>
+                            <th class="px-5 pt-7">Email</th>
+                            <th class="px-5 pt-7">Customers</th>
+                            <th class="px-5 pt-7">Owed</th>
+                            <th class="px-5 pt-7">Paid</th>
+                            <th class="px-5 pt-7">Revenue</th>
+                            <th class="px-5 pt-7">Joined</th>
+                            <th></th>
+                          </tr>
+                        </thead>
+                        <tbody class="text-gray-500 ">
+                          <tr class="border-b dark:border-gray-500">
+                            <td class="pl-5 pt-4 pb-4"></td>
+                            <td class="pl-5 pt-4 pb-4"></td>
+                            <td class="pl-5 pt-4 pb-4"></td>
+                            <td class="pl-5 pt-4 pb-4"></td>
+                            <td class="pl-5 pt-4 pb-4"></td>
+                            <td class="pl-5 pt-4 pb-4"></td>
+                            <td class="pl-5 pt-4 pb-4"></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <div class="flex text-gray-400 pt-5 pb-2">
+                        <p>Total items: 0</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="tab-text hidden-text bg-white p-3">
+                    <div class="overflow-x-scroll md:overflow-visible">
+                      <table class="table-auto text-left w-full">
+                        <thead class="text-gray-400 font-normal">
+                          <tr>
+                            <th class="px-5 pt-7">Referrer</th>
+                            <th class="px-5 pt-7">Clicks</th>
+                            <th class="px-5 pt-7">Signups</th>
+                            <th class="px-5 pt-7">Customer</th>
+                            <th></th>
+                          </tr>
+                        </thead>
+                        <tbody class="text-gray-500 ">
+                          <tr class="border-b dark:border-gray-500">
+                            <td class="pl-5 pt-4 pb-4"></td>
+                            <td class="pl-5 pt-4 pb-4"></td>
+                            <td class="pl-5 pt-4 pb-4"></td>
+                            <td class="pl-5 pt-4 pb-4"></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <div class="flex text-gray-400 pt-5 pb-2">
+                        <p>Note: This is just an approximation, the values shown on this table might be lower than real values recorded.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+              <!-- table end  -->
+
+            </div>
+
+            <!--====================== middle section End ========================-->
+
+
+
+        </div>
+
+
+    <!--========================= custom js add =========================-->
+    <script src="../src/assets/js/main.js"></script>
+    <script>
+      let tabBtn = document.querySelectorAll('.tab-btn');
+       let tabText = document.querySelectorAll('.tab-text');
+
+       for(let i = 0; i < tabBtn.length; i++){
+           tabBtn[i].addEventListener('click', function(){
+               for(let j = 0; j < tabText.length; j++){
+                   tabText[j].classList.add('hidden-text');
+                   tabBtn[j].classList.remove('active3');
+               }
+               tabText[i].classList.remove('hidden-text');
+               tabBtn[i].classList.add('active3');
+           })
+       }
+   </script>
+</body>
+</html>
